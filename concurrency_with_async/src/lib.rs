@@ -1,6 +1,6 @@
 use std::time::Duration;
 
-fn main() {
+pub fn concurrency_with_async() {
     trpl::run(async {
         // Spawn tasks
         println!(">>>>>Spawn tasks<<<<<<<");
